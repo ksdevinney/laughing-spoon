@@ -1,16 +1,16 @@
 // https://www.youtube.com/watch?v=I2UBjN5ER4s
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
-        <Switch>
-          <Route path='/' exact />
-        </Switch>
+          <Routes>
+          <Route exact path='/' />
+          </Routes>
       </Router>
     </>
   );

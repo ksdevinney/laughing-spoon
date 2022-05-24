@@ -7,12 +7,12 @@ import Home from './components/pages/Home';
 function App() {
   return (
     <>
-      <Router>
+    <Router>
         <Navbar />
           <Routes>
-          <Route exact path='/' element={<Home />} />
+            <Route exact path="/" element={<Home />}/>
           </Routes>
-      </Router>
+          </Router>
     </>
   );
 }
